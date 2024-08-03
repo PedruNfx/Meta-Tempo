@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("https://picsum.photos/1920/1080");
+    
+
+    .caixa-maior{
+        background: black;
+        opacity: 0.8;
+        border-radius: 25px;
+        padding: 20px;
+        width: 95%;
+        max-width: 450px;
+    }
+
+    input{
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 20px;
+        background-color: #7c7c7c2b;
+        color: white;
+        width: calc(100% - 100px);
+    }
+
+
+    BUTTON{
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7c7c7c2b;
+        cursor: pointer;
+        float: right;
+    }
+
+    .lupa{
+        width: 20px;
+        color: white;
+    }
+
+    h2{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 300;
+
+    }
+
+    .caixa-media{
+        margin-top: 30px;
+    }
+
+    .temperatura{
+        font-size: 16px;
+        color: #fff;
+        margin-top: 20px;
+        font-weight: bold;
+
+    }
+
+    .caixa-menor{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .texto-previsao{
+        color: white;
+        margin-left: 15px;
+        text-transform: capitalize;
+    }
+
+    .Umidade{
+        color: white;
+        margin-top: 20px;
+    }
+
+
+    .hora{
+        color: white;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 60px;
+    }
+
+
+}
